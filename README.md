@@ -20,7 +20,7 @@ X (B) Return some information about an object X
 
 
 5. How did you determine what to answer for the question above?
-I chose A and B for Question 4 as methods should only do one thing (Single Responsibility Principle). A method should either make changes to an object (Command) or return some information about an object (Query). The answer is not C because a single, well written method should not both make changes to an object while also returning information about an joect. It is best practice in this case to create two different methods to handle each task seperately. 
+I chose A and B for Question 4 as methods should only do one thing (Single Responsibility Principle). A method should either make changes to an object (Command) or return some information about an object (Query). The answer is not C because a single, well written method should not both make changes to an object while also returning information about an object. It is best practice in this case to create two different methods to handle each task seperately. 
 
 ## Exercise (10 Points Possible)
 
